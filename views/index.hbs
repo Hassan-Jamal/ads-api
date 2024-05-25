@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+</head>
+<body>
+  <h1>{{title}}</h1>
+  <form action="/add-ads-keys" method="POST">
+    <div>
+      <label for="bannerAdKey">Banner Ad Key:</label>
+      <input type="text" id="bannerAdKey" name="bannerAdKey" required>
+    </div>
+    <div>
+      <label for="interstitialAdKey">Interstitial Ad Key:</label>
+      <input type="text" id="interstitialAdKey" name="interstitialAdKey" required>
+    </div>
+    <div>
+      <label for="appOpenAdKey">App Open Ad Key:</label>
+      <input type="text" id="appOpenAdKey" name="appOpenAdKey" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
